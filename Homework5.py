@@ -4,10 +4,6 @@ print(immutable_var)
 #в переменной применен кортеж с неизеняемыми данными.
 #Для того, чтобы можно было изменить, нужно применить список.
 #Например:
-#immutable_var = [1, 2, "banana"]
-#print(immutable_var)
-#immutable_var.remove(2)
-#print(immutable_var)
 mutable_list = [1, 2, "banana", True]
 mutable_list[0] = 1 * 2
 mutable_list[2] = '2+2=4'
